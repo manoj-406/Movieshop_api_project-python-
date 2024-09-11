@@ -12,7 +12,7 @@ A RESTful API for managing movie data, built using **FastAPI** and **Pydantic**.
 - [API Endpoints](#api-endpoints)
 - [Usage Examples](#usage-examples)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
@@ -176,11 +176,6 @@ If you'd like to contribute to this project, follow these steps:
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
----
 
 Feel free to reach out if you have any questions or suggestions for improving this project!
 
