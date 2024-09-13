@@ -1,7 +1,7 @@
 """This module contains main files
 """
-from fastapi import FastAPI
 from datetime import date
+from fastapi import FastAPI
 from api.model import Movierequest, Movieresponse
 
 app = FastAPI()
@@ -13,8 +13,8 @@ def get_movies():
     movies = []
     movies.append(
         Movieresponse(
-            id="01",
-            movie_title= "RRR",
+            Id="01",
+            Movie_title= "RRR",
             Director= "SS.Rajamouli",
             Release_date= date.today()
         )
@@ -26,8 +26,8 @@ def requested_movie(request: Movierequest):
     """This Function Returns Movierequest
     """
     return Movieresponse(
-        id="01",
-        movie_title=request.movie_title,
+        Id="01",
+        Movie_title=request.Movie_title,
         Director=request.Director,
         Release_date=request.Release_date
 
