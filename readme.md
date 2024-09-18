@@ -1,4 +1,3 @@
-# Documentation
 
 
 # 🎬 Movie Shop API

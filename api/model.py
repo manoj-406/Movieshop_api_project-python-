@@ -25,7 +25,7 @@ class Movierequest(BaseModel):
 class Movieresponse(BaseModel):
     """This represents Movieresponse
     """
-    Id: str = Field(..., description="id", example="movie_1")
+    id: int = Field(..., description="id", example="movie_1")
     Movie_title: str = Field(..., description="movie title", example="RRR")
     Director: str = Field(..., description="Director name", example="SS.Rajamouli")
     Release_date: date = Field(..., description="Release date")
